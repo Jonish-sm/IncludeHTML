@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your website's description, which summarizes the content."
+    />
+    <meta name="keywords" content="Your, Keywords, Here" />
+    <meta name="author" content="Your Name" />
+    <title>Blue Kingdom</title>
+
+    <!-- Adding Open Graph and Twitter Card meta tags for social sharing -->
+    <meta property="og:title" content="Your Page Title - A Descriptive Title" />
+    <meta
+      property="og:description"
+      content="Your website's description, which summarizes the content."
+    />
+    <meta property="og:image" content="https://example.com/your-image.jpg" />
+    <meta property="og:url" content="https://example.com/your-page-url" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Adding canonical link to specify the preferred version of the page -->
+    <link rel="canonical" href="https://example.com/your-page-url" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Adding structured data (schema.org) for richer search results -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Blue Kingdom",
+        "url": "https://example.com",
+        "description": "Holiday booking website"
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="navbar-content">
+            <div class="logo">
+              <img src="./assets//logo/logo.svg" alt="blue kingdom" />
+            </div>
+            <div class="nav-links">
+              <div class="search-icon">
+                <img src="./assets/figma/search.png" class="search_i" alt="" />
+              </div>
+              <div class="languages">
+                <img src="./assets/figma/earth.png" class="earth" alt="" />
+                <h4>عربي</h4>
+              </div>
+              <div class="notification">
+                <img
+                  src="./assets/figma/notification 1.png"
+                  class="noti"
+                  alt=""
+                />
+              </div>
+              <div class="hamburger-menu">
+                <div class="menu_icon">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <img src="./assets/user/users.png" alt="user" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO_SECTION -->
+      <section>
+        <div class="hero-section">
+          <div class="videoDiv">
+            <div class="video-container">
+              <video
+                no-controls
+                autoplay
+                loop
+                muted
+                loading="lazy"
+                class="video-element"
+              >
+                <source src="./assets/video/Underwater.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="hero_text">
+            <div class="hero_text_container">
+              <h1>
+                The ultimate diving <br />
+                guide to the northern <br />
+                red sea.
+              </h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                <br />
+                industry. Lorem Ipsum has been the industry's standard dummy
+                <br />
+                text ever since the 1500s
+              </p>
+              <button><span>Discover </span> &nbsp; &#8594;</button>
+              <div class="play">
+                <img src="./assets/icons/play.svg" alt="play" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORY -->
+      <div class="main_bg">
+        <div class="category">
+          <div class="left-nav">
+            <img src="./assets/icons/filter-new.svg" alt="filter" />
+            <button class="active-btn">ALL</button>
+            <button>NEOM</button>
+            <button>AMAALA</button>
+            <button>TDRSC</button>
+            <button>MAKKAH</button>
+            <button>UMLAJJ</button>
+            <button>AL&nbsp;MADINAH</button>
+            <button>ASIR</button>
+            <button>JAZAN</button>
+          </div>
+          <div class="right-nav">
+            <span>View all</span>
+            <div class="roundIcons">
+              <img src="./assets/figma/arrow.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="carddiv">
+          <!-- CARD -->
+          <div class="main">
+            <div class="card work1">
+              <img
+                class="cardImg"
+                loading="lazy"
+                src="./assets/img/rectangle-1126@2x.png"
+                alt="sea"
+              />
+              <h3>Sharm Rock</h3>
+              <p>Neom</p>
+              <div class="love-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="distance">
+                <img src="./assets/icons/location.png" alt="location" />
+                <span>Distance &nbsp; 15 Km</span>
+              </div>
+              <div class="time">
+                <img src="./assets/icons/stopwatch.png" alt="watch" />
+                <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
+              </div>
+              <div class="vertical-line1"></div>
+              <div class="star">
+                <div class="allstart">
+                  <i class="fa-solid fa-star yellow"></i>
+                  <span>4</span>
+                </div>
+                <p>Ratings</p>
+              </div>
+              <div class="arrow">
+                <img src="./assets/icons/arrowdown.png" alt="" />
+                <span>150-452 M</span>
+              </div>
+              <div class="therometer">
+                <img src="./assets/icons/thermo.png" alt="therometer" />
+                <span>254-332°C</span>
+              </div>
+              <div class="eye">
+                <img src="./assets/icons/eye.png" alt="eyeicon" />
+                <span>654+ 542M</span>
+              </div>
+              <div class="arrow-right">
+                <img src="./assets/icons/arrowcurv.png" alt="curvarrow" />
+                <span>MILD</span>
+              </div>
+            </div>
+            <div class="card work2">
+              <img
+                class="cardImg"
+                loading="lazy"
+                src="./assets/img/rectangle-1128@2x.png"
+                alt="sea"
+              />
+              <h3>Sharm Rock</h3>
+              <p>Neom</p>
+              <div class="love-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="distance">
+                <img src="./assets/icons/location.png" alt="location" />
+                <span>Distance &nbsp; 15 Km</span>
+              </div>
+              <div class="time">
+                <img src="./assets/icons/stopwatch.png" alt="watch" />
+                <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
+              </div>
+              <div class="vertical-line1"></div>
+              <div class="star">
+                <div class="allstart">
+                  <i class="fa-solid fa-star yellow"></i>
+                  <span>4</span>
+                </div>
+                <p>Ratings</p>
+              </div>
+              <div class="arrow">
+                <img src="./assets/icons/arrowdown.png" alt="" />
+                <span>150-452 M</span>
+              </div>
+              <div class="therometer">
+                <img src="./assets/icons/thermo.png" alt="therometer" />
+                <span>254-332°C</span>
+              </div>
+              <div class="eye">
+                <img src="./assets/icons/eye.png" alt="eyeicon" />
+                <span>654+ 542M</span>
+              </div>
+              <div class="arrow-right">
+                <img src="./assets/icons/arrowcurv.png" alt="curvarrow" />
+                <span>MILD</span>
+              </div>
+            </div>
+            <div class="card work3">
+              <img
+                class="cardImg"
+                loading="lazy"
+                src="./assets/img/rectangle-11210@2x.png"
+                alt="sea"
+              />
+              <h3>Sharm Rock</h3>
+              <p>Neom</p>
+              <div class="love-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="distance">
+                <img src="./assets/icons/location.png" alt="location" />
+                <span>Distance &nbsp; 15 Km</span>
+              </div>
+              <div class="time">
+                <img src="./assets/icons/stopwatch.png" alt="watch" />
+                <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
+              </div>
+              <div class="vertical-line1"></div>
+              <div class="star">
+                <div class="allstart">
+                  <i class="fa-solid fa-star yellow"></i>
+                  <span>4</span>
+                </div>
+                <p>Ratings</p>
+              </div>
+              <div class="arrow">
+                <img src="./assets/icons/arrowdown.png" alt="" />
+                <span>150-452 M</span>
+              </div>
+              <div class="therometer">
+                <img src="./assets/icons/thermo.png" alt="therometer" />
+                <span>254-332°C</span>
+              </div>
+              <div class="eye">
+                <img src="./assets/icons/eye.png" alt="eyeicon" />
+                <span>654+ 542M</span>
+              </div>
+              <div class="arrow-right">
+                <img src="./assets/icons/arrowcurv.png" alt="curvarrow" />
+                <span>MILD</span>
+              </div>
+            </div>
+            <div class="card work4">
+              <img
+                class="cardImg"
+                loading="lazy"
+                src="./assets/img/rectangle-1127@2x.png"
+                alt="sea"
+              />
+              <h3>Sharm Rock</h3>
+              <p>Neom</p>
+              <div class="love-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="distance">
+                <img src="./assets/icons/location.png" alt="location" />
+                <span>Distance &nbsp; 15 Km</span>
+              </div>
+              <div class="time">
+                <img src="./assets/icons/stopwatch.png" alt="watch" />
+                <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
+              </div>
+              <div class="vertical-line1"></div>
+              <div class="star">
+                <div class="allstart">
+                  <i class="fa-solid fa-star yellow"></i>
+                  <span>4</span>
+                </div>
+                <p>Ratings</p>
+              </div>
+              <div class="arrow">
+                <img src="./assets/icons/arrowdown.png" alt="" />
+                <span>150-452 M</span>
+              </div>
+              <div class="therometer">
+                <img src="./assets/icons/thermo.png" alt="therometer" />
+                <span>254-332°C</span>
+              </div>
+              <div class="eye">
+                <img src="./assets/icons/eye.png" alt="eyeicon" />
+                <span>654+ 542M</span>
+              </div>
+              <div class="arrow-right">
+                <img src="./assets/icons/arrowcurv.png" alt="curvarrow" />
+                <span>MILD</span>
+              </div>
+            </div>
+            <div class="card work5">
+              <img
+                class="cardImg"
+                loading="lazy"
+                src="./assets/img/rectangle-1129@2x.png"
+                alt="sea"
+              />
+              <h3>Sharm Rock</h3>
+              <p>Neom</p>
+              <div class="love-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="distance">
+                <img src="./assets/icons/location.png" alt="location" />
+                <span>Distance &nbsp; 15 Km</span>
+              </div>
+              <div class="time">
+                <img src="./assets/icons/stopwatch.png" alt="watch" />
+                <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
+              </div>
+              <div class="vertical-line1"></div>
+              <div class="star">
+                <div class="allstart">
+                  <i class="fa-solid fa-star yellow"></i>
+                  <span>4</span>
+                </div>
+                <p>Ratings</p>
+              </div>
+              <div class="arrow">
+                <img src="./assets/icons/arrowdown.png" alt="" />
+                <span>150-452 M</span>
+              </div>
+              <div class="therometer">
+                <img src="./assets/icons/thermo.png" alt="therometer" />
+                <span>254-332°C</span>
+              </div>
+              <div class="eye">
+                <img src="./assets/icons/eye.png" alt="eyeicon" />
+                <span>654+ 542M</span>
+              </div>
+              <div class="arrow-right">
+                <img src="./assets/icons/arrowcurv.png" alt="curvarrow" />
+                <span>MILD</span>
+              </div>
+            </div>
+            <div class="card work6">
+              <img
+                class="cardImg"
+                loading="lazy"
+                src="./assets/img/rectangle-11211@2x.png"
+                alt="sea"
+              />
+              <h3>Sharm Rock</h3>
+              <p>Neom</p>
+              <div class="love-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="vertical-line"></div>
+              <div class="distance">
+                <img src="./assets/icons/location.png" alt="location" />
+                <span>Distance &nbsp; 15 Km</span>
+              </div>
+              <div class="time">
+                <img src="./assets/icons/stopwatch.png" alt="watch" />
+                <span>Top Dive Time &nbsp;&nbsp; 45-60 Mn</span>
+              </div>
+              <div class="vertical-line1"></div>
+              <div class="star">
+                <div class="allstart">
+                  <i class="fa-solid fa-star yellow"></i>
+                  <span>4</span>
+                </div>
+                <p>Ratings</p>
+              </div>
+              <div class="arrow">
+                <img src="./assets/icons/arrowdown.png" alt="" />
+                <span>150-452 M</span>
+              </div>
+              <div class="therometer">
+                <img src="./assets/icons/thermo.png" alt="therometer" />
+                <span>254-332°C</span>
+              </div>
+              <div class="eye">
+                <img src="./assets/icons/eye.png" alt="eyeicon" />
+                <span>654+ 542M</span>
+              </div>
+              <div class="arrow-right">
+                <img src="./assets/icons/arrowcurv.png" alt="curvarrow" />
+                <span>MILD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- READS_SECTION -->
+      <div class="read_main">
+        <div class="readsee">
+          <div class="left">
+            <h2>Reads</h2>
+            <hr />
+          </div>
+          <div class="right">
+            <span>View all</span>
+            <div class="roundIcons">
+              <img src="./assets/figma/arrow.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="readcard">
+          <div class="grid1">
+            <img src="./assets/img/rectangle-112@2x.png" alt="" />
+            <h3 class="hu3">
+              The Fight <br />
+              Against Plastic
+            </h3>
+          </div>
+          <div class="grid2">
+            <img src="./assets/img/rectangle-1125@2x.png" alt="" />
+            <h3 class="hu3">
+              SCUBA Diving…my <br />
+              rebirth!
+            </h3>
+          </div>
+          <div class="grid3">
+            <img src="./assets/img/rectangle-1121@2x.png" alt="" />
+            <h3 class="hu3">
+              Free Diving. Did you <br />
+              know that…
+            </h3>
+          </div>
+          <div class="grid4">
+            <img src="./assets/img/rectangle-1124@2x.png" alt="" />
+            <h3 class="hu3">
+              My own…Deep <br />
+              Blue Sea
+            </h3>
+          </div>
+          <div class="grid5">
+            <img src="./assets/img/rectangle-1123@2x.png" alt="" />
+            <h3 class="hu3">
+              Divemaster <br />
+              Rocks
+            </h3>
+          </div>
+          <div class="grid6">
+            <img src="./assets/img/rectangle-1122@2x.png" alt="" />
+            <h3 class="hu3">
+              Find the <br />
+              courage!
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="main_footer">
+        <div class="front">
+          <div class="footer_top">
+            <div class="footer_left">
+              <div class="head">
+                <h3 class="heading">
+                  Download and <br />
+                  Start Your Exploration
+                </h3>
+              </div>
+              <div class="para">
+                <p>
+                  Start your journey by exploring new places <br />
+                  easily with BlueKingdom
+                </p>
+              </div>
+              <div class="storeimg">
+                <img alt="kuchv" src="./assets/footer/googleplay.webp" />
+                <img alt="kuchv" src="./assets/footer/appstore.webp" />
+              </div>
+            </div>
+            <div class="footer_right">
+              <div class="mobiimg">
+                <img
+                  alt="mobile"
+                  src="./assets/footer/mobile.png"
+                  class="mobile"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="footer_bot_left">
+            <img
+              alt="kuchv"
+              src="./assets/footer/disney.png"
+              class="federation"
+            />
+            <img alt="kuchv" src="./assets/footer/explorer.png" class="flag" />
+          </div>
+          <div class="footer_bot_middle">
+            <ul>
+              <li>
+                <a href="/">© 2022 Hasinclu.de</a>
+                <span class="vl"></span>
+              </li>
+              <li>
+                <a href="/">About Us</a>
+                <span class="vl"></span>
+              </li>
+              <li>
+                <a href="/">Contact Us</a>
+                <span class="vl"></span>
+              </li>
+              <li>
+                <a href="/">Privacy</a>
+                <span class="vl"></span>
+              </li>
+              <li>
+                <a href="/">Terms</a>
+                <span class="vl"></span>
+              </li>
+              <li>
+                <a href="/">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_bot_right">
+            <div class="icons">
+              <img src="./assets/figma/fb.png" alt="" />
+            </div>
+            <div class="icons">
+              <img src="./assets/figma/twit.png" alt="" />
+            </div>
+            <div class="icons">
+              <img src="./assets/figma/insta.png" alt="" />
+            </div>
+            <div class="icons">
+              <img src="./assets/figma/link.png" alt="" />
+            </div>
+            <!-- <img src="./assets/figma/fb.png" class="icons" alt="" />
+            <img src="./assets/figma/twit.png" class="icons" alt="" />
+            <img src="./assets/figma/insta.png" class="icons" alt="" />
+            <img src="./assets/figma/link.png" class="icons" alt="" /> -->
+          </div>
+        </div>
+        <div class="back">
+          <svg viewBox="0 0 120 28" class="footer-wave__svg">
+            <defs>
+              <mask id="xxx">
+                <circle cx="7" cy="12" r="40" fill="#fff"></circle>
+              </mask>
+
+              <filter id="goo">
+                <feGaussianBlur
+                  in="SourceGraphic"
+                  stdDeviation="2"
+                  result="blur"
+                ></feGaussianBlur>
+
+                <feColorMatrix
+                  type="matrix"
+                  values="1.000 0.000 0.000 0.000 0.000
+                        0.000 1.000 0.000 0.000 0.000
+                        0.000 0.000 1.000 0.000 0.000
+                        0.000 0.000 0.000 1.000 0.000"
+                ></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="goo"></feBlend>
+              </filter>
+              <path
+                id="wave"
+                d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 58 h -240 z"
+              ></path>
+            </defs>
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="5"></use>
+            <use id="wave0" class="wave" xlink:href="#wave" x="0" y="-9"></use>
+            <use id="wave4" class="wave" xlink:href="#wave" x="0" y="15"></use>
+          </svg>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
