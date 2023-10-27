@@ -23,13 +23,12 @@
 }
 
 /* HEADER_SECTION */
-
-.navbar {
-  background-color: rgb(255, 255, 255);
-  /* padding: 0.7rem 0; */
-  position: sticky;
-  top: 0%;
-  z-index: 20;
+nav{
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 20;
+background-color: white;
 }
 .navbar-content {
   width: 80%;
