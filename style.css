@@ -23,12 +23,12 @@
 }
 
 /* HEADER_SECTION */
-nav{
-position: fixed;
-width: 100%;
-top: 0;
-z-index: 20;
-background-color: white;
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 20;
+  background-color: white;
 }
 .navbar-content {
   width: 80%;
@@ -151,6 +151,7 @@ background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
 }
 .videoDiv {
   position: relative;
