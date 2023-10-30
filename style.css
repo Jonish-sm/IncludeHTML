@@ -294,8 +294,12 @@ nav {
 
 .card {
   position: relative;
-  width: 382px;
-  height: 260px;
+  /* width: 382px; */
+  width: 31%;
+
+  /* height: 260px; */
+
+  /* height: 260px; */
   overflow: hidden;
   border-radius: 5px;
   cursor: pointer;
@@ -967,6 +971,16 @@ nav {
 }
 
 @media only screen and (min-width: 801px) and (max-width: 993px) {
+  .readcard {
+    grid-template-areas:
+      "A A A A"
+      "A A A A"
+      "A A A A"
+      "C C D D"
+      "B B E E"
+      "B B F F";
+  }
+
   .bottom {
     flex-direction: column;
   }
@@ -1121,6 +1135,7 @@ nav {
   }
   .readcard {
     grid-template-areas:
+      "A A A A"
       "A A A A"
       "C C D D"
       "B B E E"
